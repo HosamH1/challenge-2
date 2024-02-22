@@ -35,25 +35,4 @@ for num in numbers:
 
 
 
-## Hint for Sorting in Descending Order
-
-To sort a list of numbers in Python from highest to lowest, you can use the `.sort()` method of list objects. This method sorts the list in place, meaning it changes the original list. By default, `.sort()` will sort the list in ascending order (from lowest to highest). However, you can use the `reverse=True` argument to sort the list in descending order (from highest to lowest).
-
-### Example:
-
-Consider you have a list named `Hosam`:
-
-```python
-Hosam = [3, 4, 5, 6, 7, 999]
-
-To sort this list in descending order, you would use:
-
-Hosam.sort(reverse=True)
-
-After this operation, the list Hosam will be:
-[999, 7, 6, 5, 4, 3]
-
-This shows that Hosam has been sorted with the highest number at the start and the lowest at the end, demonstrating the effect of reverse=True.
-
-Use this approach to sort the list of numbers in your challenge from largest to smallest before printing them.
 
