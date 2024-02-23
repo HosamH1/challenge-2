@@ -9,7 +9,7 @@ for _ in range(5):
     numbers.append(number)
 
 # Sort the numbers from largest to smallest
-
+numbers.sort(reverse=True)
 
 # Print the sorted list
 print("Numbers sorted from largest to smallest:")
