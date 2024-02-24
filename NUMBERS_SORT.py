@@ -12,6 +12,6 @@ for _ in range(5):
 numbers.sort(reverse=True)
 
 # Print the sorted list
-print("Numbers sorted from largest to smallest:")
+print("Numbers sorted from largest to smallest >>>>:")
 for num in numbers:
     print(num)
